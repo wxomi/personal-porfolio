@@ -303,12 +303,14 @@ img {
 }
 
 .home__blob{
+  display: none;
   background-color: var(--first-color);
   width: 200px;
   fill: var(--first-color);
 }
 
 .home__blob-img{
+  display: none;
   position: relative;
   border-radius: 3.5rem;
   width: 220px;
@@ -418,8 +420,13 @@ img {
 }
 
 
+#about.about.section{
+  padding-top: 18rem;
+  padding-bottom: 12rem;
+}
 
 .about__info-title{
+  
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
@@ -653,10 +660,18 @@ img {
 }
 
 /* contact */
+
+#contact.contact.section{
+  padding-top: 12rem;
+
+}
+
 .contact__container{
   row-gap: 3rem;
   align-items: center;
 }
+
+
 
 .contact__information{
   display: flex;
@@ -1046,6 +1061,7 @@ img {
   .home__social{
       transform: translateX(-6rem);
   }
+  
 
 
   .portfolio__content{
@@ -1075,4 +1091,12 @@ img {
   .contact__inputs{
       grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media screen and (min-width: 1069px){
+  .proj-post__img{
+    height: 11.5rem;
+    width: 180%;
+  }
+
 }
