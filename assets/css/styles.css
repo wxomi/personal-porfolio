@@ -310,10 +310,9 @@ img {
   background-color: var(--first-color);
   position: relative;
   border-radius: 3.5rem;
-  width: 250px;
+  width: 220px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 
 .home__data{
@@ -830,13 +829,23 @@ img {
   .home__blob{
       width: 180px;
   }
-
+  .home__blob-img{
+    width: 150px !important; 
+}
 
   .project__img{
       width: 200px;
   }
 
 }
+
+@media screen and (max-width: 768px){
+  .home__blob-img{
+    width: 190px !important;
+}
+}
+
+
 
 /* medium devices */
 @media screen and (min-width: 568px){
@@ -852,6 +861,8 @@ img {
       order: 1;
       justify-self: center;
   }
+  
+  
 
   .about__container,
   .portfolio__content,
