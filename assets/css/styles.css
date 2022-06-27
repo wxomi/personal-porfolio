@@ -830,7 +830,7 @@ img {
       width: 180px;
   }
   .home__blob-img{
-    width: 150px !important; 
+    width: 130px !important; 
 }
 
   .project__img{
@@ -841,7 +841,7 @@ img {
 
 @media screen and (max-width: 768px){
   .home__blob-img{
-    width: 190px !important;
+    width: 190px;
 }
 }
 
