@@ -422,7 +422,6 @@ img {
 
 #about.about.section{
   padding-top: 18rem;
-  padding-bottom: 12rem;
 }
 
 .about__info-title{
@@ -661,10 +660,6 @@ img {
 
 /* contact */
 
-#contact.contact.section{
-  padding-top: 12rem;
-
-}
 
 .contact__container{
   row-gap: 3rem;
